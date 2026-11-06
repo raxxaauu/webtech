@@ -10,6 +10,7 @@ body {
     color: var(--tekst);
     font-family: var(--lettertype);
     font-size: var(--lettergroote); 
+
 }
 nav a {
     text-decoration: none;
