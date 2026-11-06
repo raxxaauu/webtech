@@ -30,6 +30,8 @@ footer p {
 /* 4. de paragraaf die onmiddellijk na elke h2 komt -> font-style: italic; */
 h2 + p {
       font-style: italic;
+      background-color: blueviolet;
+
 }
 
 /* 5. elk oneven item in de lijst met openingsuren -> background-color: #f1e9dc; */

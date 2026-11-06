@@ -2,7 +2,76 @@
 
 /* === tokens === */
 :root {
-
+    --tomato: #FF6347;
+    --orangered: #FF4500;
+    --coral: #FF7F50;
+    --lightsalmon: #FFA07A;
+    --darkorange: #FF8C00;
+    --tektskleur: white; 
+    --font: arial;
 }
 
 /* === your rules === */
+.tomato {
+    background-color: var(--tomato);
+    height: 50vh;
+    text-align: center;
+    color: var(--tektskleur);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.orangered {
+    background-color: var(--orangered);
+    height: 50vh;
+    text-align: center;
+    color: var(--tektskleur);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.coral {
+    background-color: var(--coral);
+    height: 50vh;
+    text-align: center;
+    color: var(--tektskleur);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lightsalmon {
+    background-color: var(--lightsalmon);
+    height: 50vh;
+    text-align: center;
+    color: var(--tektskleur);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.darkorange {
+    background-color: var(--darkorange);
+    height: 50vh;
+    text-align: center;
+    color: var(--tektskleur);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h2 {
+    letter-spacing: 0.25rem;
+    margin-bottom: 1rem;
+}
+.codes span {
+    margin: 0 0.5rem;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    
