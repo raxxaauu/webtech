@@ -1,0 +1,23 @@
+:root {
+    --achtergrond: #fbf7f0;
+    --tekst: #2b2b2b; 
+    --lettertype: Verdana;
+    --lettergroote: 1rem;
+    --focus-kleur: orange;
+}
+body {
+    background-color: var(--achtergrond);
+    color: var(--tekst);
+    font-family: var(--lettertype);
+    font-size: var(--lettergroote); 
+}
+nav a {
+    text-decoration: none;
+    color: var(--tekst);
+}
+nav a:focus {
+    background-color: var(--focus-kleur);
+}       
+nav a:hover {
+    color: var(--focus-kleur);
+}
