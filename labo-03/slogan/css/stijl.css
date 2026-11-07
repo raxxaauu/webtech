@@ -30,7 +30,8 @@ h2 {
 }
 p {
     font-size: 1.25rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+
 }
 a {
     background-color: black;
@@ -49,3 +50,4 @@ a:hover {
 a:focus {
     background-color: #333333;
 }
+
