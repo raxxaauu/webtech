@@ -2,7 +2,50 @@
 
 /* === tokens === */
 :root {
-
+    --tekstkleur: #282827;
+    --made: #fccc00;
+    --font: arial;
+    --linkkleur: white;
 }
 
 /* === your rules === */
+body {
+    font-family: var(--font);
+    color: var(--tekstkleur);
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12rem;
+}
+h2 span {
+    border: 1rem solid var(--made);
+    border-radius: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+h2 {
+    font-size: 4rem;
+}
+p {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+a {
+    background-color: black;
+    color: var(--linkkleur);
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 1.5rem;
+    font-size: 0.90rem;
+
+}
+a:hover {
+    background-color: #333333;
+}
+a:focus {
+    background-color: #333333;
+}
