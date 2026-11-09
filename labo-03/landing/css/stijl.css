@@ -2,7 +2,63 @@
 
 /* === tokens === */
 :root {
-
+    --banner: #c8b8ff;
+    --link: #5551ff;
+    --hero: #779cee;
+    --tekstkleur: black;
+    --tekstype: arial;
+    --wit: white;
 }
 
 /* === your rules === */
+body{
+    color: var(--tekstkleur);
+    font-family: var(--tekstype);
+
+}
+.banner p {
+    text-align: center;
+    font-family: var(--tekstype);
+    padding: 1rem;
+}   
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    text-align: left;
+    justify-content: right;
+    margin-right: 1rem;
+    
+}
+nav a {
+    text-decoration: none;
+    color: var(--tekstkleur);
+}
+main {
+    background-color: var(--hero);
+    display: flex;
+    min-height: 80vh;
+    align-items: flex-start;
+
+}
+img {
+    width: 70%;
+}
+.banner {
+    background-color: var(--banner);
+}
+article {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.bovenkop {
+    font-size: 1rem;
+}
+article h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+article p {
+    font-size: 0.9rem;
+    max-width: 22rem;
+}
